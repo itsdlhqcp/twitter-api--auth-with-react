@@ -1,0 +1,45 @@
+@import 'override';
+@import 'utility';
+@import 'utility_colors';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #fcfcfc;
+}
+
+html,
+body,
+#root,
+#root > div {
+  height: 100%;
+}
+
+.custom-scroll {
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #ddd;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: darken(#ddd, 20%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
